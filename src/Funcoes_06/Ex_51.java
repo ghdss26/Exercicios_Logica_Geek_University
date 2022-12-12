@@ -1,15 +1,19 @@
-package Matrizes_05;
+package Funcoes_06;
 
 import java.util.Scanner;
 
-public class Ex_11 {
+public class Ex_51 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub	
+		
+		int mat[][] = new int[3][3];
+		
+		diagonal_secundaria(mat);
+	}
+
+	private static void diagonal_secundaria(int[][] mat) {
 		
 		int i, j = 0, soma = 1; 
-		
-		int mat[][] = new int[3][3]; 
 		
 		Scanner sc = new Scanner(System.in); 
 		
@@ -35,4 +39,5 @@ public class Ex_11 {
 			}	
 		}
 	}
+
 }
